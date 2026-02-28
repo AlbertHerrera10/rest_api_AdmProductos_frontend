@@ -4,6 +4,7 @@ import './index.css'
 import { router } from './router'
 import { RouterProvider } from 'react-router-dom'
 
+console.log('API URL:', import.meta.env.VITE_API_URL)
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
